@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_MasterVM_adminPassword": {
+            "value": wvidyarediffmail1
+        },
+        "virtualMachines_MasterVM_name": {
+            "value": TestVM
+        },
+        "networkInterfaces_mastervm898_name": {
+            "value": testvm_net
+        },
+        "networkSecurityGroups_MasterVM_nsg_name": {
+            "value": TestVM_nsg
+        },
+        "publicIPAddresses_MasterVM_ip_name": {
+            "value": TestVMPublic
+        },
+        "virtualNetworks_asos_dim_vnet_name": {
+            "value": null
+        },
+        "virtualNetworks_asosdimtest2_name": {
+            "value": null
+        },
+        "storageAccounts_asosdimtest2_name": {
+            "value": null
+        },
+        "storageAccounts_testtingdiag257_name": {
+            "value": null
+        },
+        "storageAccounts_testtingdisks820_name": {
+            "value": TestVMDisk
+        }
+    }
+}
